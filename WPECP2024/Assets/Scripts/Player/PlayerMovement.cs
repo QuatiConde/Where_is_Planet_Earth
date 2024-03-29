@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -29,8 +30,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Move()
     {
-        moveVector = new(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
-        moveVector = Vector3.ClampMagnitude(moveVector, 1f); //Clamp so diagonal speed is not faster
+        //moveVector = new(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+        //moveVector = Vector3.ClampMagnitude(moveVector, 1f); //Clamp so diagonal speed is not faster
 
         controller.Move(speed * Time.deltaTime * moveVector);
         
@@ -48,5 +49,14 @@ public class PlayerMovement : MonoBehaviour
             sprite.flipX = false;
         else if (moveVector.x < 0)
             sprite.flipX = true;
+    }
+
+    public void OnMoveInput(InputAction.CallbackContext ctx)
+    {
+        Vector2 v = ctx.ReadValue<Vector2>();
+        //Move only in X and Y
+        moveVector.x = v.x;
+        moveVector.z = v.y;
+        moveVector = Vector3.ClampMagnitude(moveVector, 1f); //Clamp so diagonal speed is not faster
     }
 }
