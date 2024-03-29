@@ -1,0 +1,623 @@
+fileFormatVersion: 2
+guid: 330787e3db3719a4f9a0e7b89d847933
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: b2a9591990af98743ba3ff7cf1000886, type: 3}
+  textureImporterSettings:
+    alphaSource: 1
+    mipMapMode: 0
+    enableMipMap: 1
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+    convertToNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+    swizzle: 50462976
+    isReadable: 0
+    streamingMipmaps: 1
+    streamingMipmapsPriority: 0
+    vTOnly: 0
+    ignoreMipmapLimit: 0
+    nPOTScale: 1
+    sRGBTexture: 1
+    spriteMode: 2
+    spriteExtrude: 1
+    spriteMeshType: 1
+    alignment: 0
+    spritePivot: {x: 0.5, y: 0.5}
+    spritePixelsToUnits: 100
+    spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+    spriteGenerateFallbackPhysicsShape: 0
+    generateCubemap: 6
+    cubemapConvolution: 0
+    seamlessCubemap: 0
+    alphaIsTransparency: 1
+    spriteTessellationDetail: -1
+    textureType: 8
+    textureShape: 1
+    singleChannelComponent: 0
+    flipbookRows: 0
+    flipbookColumns: 0
+    ignorePngGamma: 0
+    cookieMode: 0
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 0
+    wrapV: 0
+    wrapW: 0
+    normalMap: 0
+    textureFormat: 0
+    maxTextureSize: 0
+    lightmap: 0
+    compressionQuality: 0
+    linearTexture: 0
+    grayScaleToAlpha: 0
+    rGBM: 0
+    cubemapConvolutionSteps: 0
+    cubemapConvolutionExponent: 0
+    maxTextureSizeSet: 0
+    compressionQualitySet: 0
+    textureFormatSet: 0
+    applyGammaDecoding: 0
+  spriteImportData:
+  - name: TExtura chao 1_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 500
+      height: 500
+    spriteID: 
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 0, y: 0}
+    spritePosition: {x: 0, y: 0}
+  mosaicSpriteImportData:
+  - name: TExtura chao 1_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1528
+      width: 500
+      height: 500
+    spriteID: 92ea71c92c9311a45b1bf06355f01201
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1528}
+    spritePosition: {x: 0, y: 0}
+  - name: TExtura chao 1_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1020
+      width: 500
+      height: 500
+    spriteID: b0dd0761c62b47c4aa4bbd97d3a37630
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1020}
+    spritePosition: {x: 0, y: 0}
+  - name: TExtura chao 1_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 512
+      width: 500
+      height: 500
+    spriteID: 25f74afff6e066940a7dc6b6df94c579
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 512}
+    spritePosition: {x: 0, y: 0}
+  - name: TExtura chao 1_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 512
+      width: 500
+      height: 500
+    spriteID: 2117582634c6eb24fba59a33649b2ca9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 512, y: 512}
+    spritePosition: {x: 0, y: 0}
+  - name: TExtura chao 1_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 500
+      height: 500
+    spriteID: c93676b1beacc9a4faab02db73fb5e6d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
+  - name: TExtura chao 1_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 4
+      width: 500
+      height: 500
+    spriteID: 832dbfb7c5aa0aa4d9670ab2d4b1d2e8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 512, y: 4}
+    spritePosition: {x: 0, y: 0}
+  rigSpriteImportData:
+  - name: planeta5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 500
+      height: 500
+    spriteID: 0f8b782dac470b44e93eacd707eba5be
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 0, y: 0}
+  - name: planeta4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 512
+      width: 500
+      height: 500
+    spriteID: 53dc508a7dccd854b877eac50302a7b4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 512}
+    spritePosition: {x: 0, y: 0}
+  - name: planeta3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1020
+      width: 500
+      height: 500
+    spriteID: c990f3875a7078e458aaa4d7f6394b97
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1020}
+    spritePosition: {x: 0, y: 0}
+  - name: planeta2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 1528
+      width: 500
+      height: 500
+    spriteID: b505873e790be6f43af7336592a8a40c
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 1528}
+    spritePosition: {x: 0, y: 0}
+  - name: planeta1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 4
+      width: 500
+      height: 500
+    spriteID: 244860446d4077744913bd9f2f1574f9
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 512, y: 4}
+    spritePosition: {x: 0, y: 0}
+  - name: grama
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 512
+      y: 512
+      width: 500
+      height: 500
+    spriteID: 306163f2bfcd53f4482628ced701a781
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 512, y: 512}
+    spritePosition: {x: 0, y: 0}
+  characterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  sharedRigSpriteImportData: []
+  sharedRigCharacterData:
+    bones: []
+    parts: []
+    dimension: {x: 0, y: 0}
+    characterGroups: []
+    pivot: {x: 0, y: 0}
+    boneReadOnly: 0
+  platformSettings:
+  - name: DefaultTexturePlatform
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Standalone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Server
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Android
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: iPhone
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: WebGL
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  - name: Windows Store Apps
+    overridden: 0
+    ignorePlatformSupport: 0
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    androidETC2FallbackOverride: 0
+  mosaicLayers: 1
+  characterMode: 0
+  documentPivot: {x: 0, y: 0}
+  documentAlignment: 7
+  importHiddenLayers: 0
+  layerMappingOption: 2
+  generatePhysicsShape: 0
+  paperDollMode: 0
+  keepDupilcateSpriteName: 1
+  skeletonAssetReferenceID: 
+  padding: 1
+  spriteSizeExpand: 0
+  spriteCategoryList:
+    categories: []
+  spritePackingTag: 
+  resliceFromLayer: 0
+  mosaicPSDLayers:
+  - name: Prancheta 1
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: e4c0f86ce1fa20f41aaca94127f31a7a
+    layerID: 3
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: planeta5
+    spriteName: planeta5
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 2db2e6bc356af9b4f9d1594675d57770
+    layerID: 10
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: planeta4
+    spriteName: planeta4
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 72e63bf264771f64986deacc9b8f9b63
+    layerID: 9
+    mosaicPosition: {x: 4, y: 512}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: planeta3
+    spriteName: planeta3
+    isGroup: 0
+    parentIndex: 0
+    spriteID: fc1213de77c50014e8db6371ae4be6de
+    layerID: 8
+    mosaicPosition: {x: 4, y: 1020}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: planeta2
+    spriteName: planeta2
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 3aa06d806b1aa834db4a9f109df2fada
+    layerID: 7
+    mosaicPosition: {x: 4, y: 1528}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: planeta1
+    spriteName: planeta1
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 2a24b53056420774585018e175ef001d
+    layerID: 11
+    mosaicPosition: {x: 512, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: grama
+    spriteName: grama
+    isGroup: 0
+    parentIndex: 0
+    spriteID: c86fda68a8f81d14eb102d8c9d99f17e
+    layerID: 6
+    mosaicPosition: {x: 512, y: 512}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  rigPSDLayers:
+  - name: Prancheta 1
+    spriteName: 
+    isGroup: 1
+    parentIndex: -1
+    spriteID: f8167a2d85fb4494c901fa89e3a6d730
+    layerID: 3
+    mosaicPosition: {x: 0, y: 0}
+    flatten: 0
+    isImported: 0
+    isVisible: 1
+  - name: planeta5
+    spriteName: planeta5
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 0f8b782dac470b44e93eacd707eba5be
+    layerID: 10
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: planeta4
+    spriteName: planeta4
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 53dc508a7dccd854b877eac50302a7b4
+    layerID: 9
+    mosaicPosition: {x: 4, y: 512}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: planeta3
+    spriteName: planeta3
+    isGroup: 0
+    parentIndex: 0
+    spriteID: c990f3875a7078e458aaa4d7f6394b97
+    layerID: 8
+    mosaicPosition: {x: 4, y: 1020}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: planeta2
+    spriteName: planeta2
+    isGroup: 0
+    parentIndex: 0
+    spriteID: b505873e790be6f43af7336592a8a40c
+    layerID: 7
+    mosaicPosition: {x: 4, y: 1528}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: planeta1
+    spriteName: planeta1
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 244860446d4077744913bd9f2f1574f9
+    layerID: 11
+    mosaicPosition: {x: 512, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: grama
+    spriteName: grama
+    isGroup: 0
+    parentIndex: 0
+    spriteID: 306163f2bfcd53f4482628ced701a781
+    layerID: 6
+    mosaicPosition: {x: 512, y: 512}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  sharedRigPSDLayers: []
+  pSDLayerImportSetting:
+  - spriteId: 2db2e6bc356af9b4f9d1594675d57770
+    name: planeta5
+    layerId: 10
+    flatten: 0
+    isGroup: 0
+    importLayer: 1
+  importFileNodeState: 1
+  platformSettingsDirtyTick: 0
+  spriteSizeExpandChanged: 1
+  generateGOHierarchy: 0
+  textureAssetName: 
+  prefabAssetName: 
+  spriteLibAssetName: 
+  skeletonAssetName: 
+  secondarySpriteTextures: []
