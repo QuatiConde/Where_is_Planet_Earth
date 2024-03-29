@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee8740509a3d5a94fbcfa0898498ab6b, type: 3}
+  m_Name: Narrator
+  m_EditorClassIdentifier: 
+  dialogues:
+  - index: 0
+    context: O narrador introduz o ET que perdeu o controle na nave e caiu em uma
+      galaxia em um planeta.
+    dialogue: "Di\xE1logo do in\xEDcio do primeiro mundo"
+  - index: 1
+    context: Nave cai em um planeta. Narrador comenta sobre o acontecido.
+    dialogue: "O explorador solit\xE1rio percebe que caiu em um planeta desconhecido.
+      Se pergunta o que deve ter motivado a queda de sua nave, afinal tempestades
+      espaciais s\xE3o raras naquele per\xEDmetro, segundo os pr\xF3prios estudos
+      que fez."
