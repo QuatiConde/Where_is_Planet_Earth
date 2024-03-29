@@ -9,6 +9,12 @@ public class Resource : MonoBehaviour
     public ResourceType type;
     [ReadOnly] public int currAmount; //How many resources this will start with?
     public int maxAmount;
+    [Header("Collect Settings")]
+    public bool collectTimer;
+    [ShowIf("collectTimer")] public float timeToCollect; //In seconds
+    [ReadOnly] [ShowIf("collectTimer")] public float currTimer; //In seconds
+    [ReadOnly] [ShowIf("collectTimer")] public bool isCollecting;
+    private SpriteFill timerFill;
 
     //References
     private GameObject feedback;
@@ -19,10 +25,35 @@ public class Resource : MonoBehaviour
         //Get references
         feedback = transform.Find("InteractionFeedback").gameObject;
         amountText = GetComponentInChildren<TMP_Text>();
+        timerFill = GetComponentInChildren<SpriteFill>();
         //Initial values
         currAmount = maxAmount;
         feedback.SetActive(false);
+        timerFill.Toggle(false);
         UpdateUI();
+    }
+
+    private void Update()
+    {
+        if (isCollecting)
+        {
+            currTimer -= Time.deltaTime;
+            //Update timer UI
+            timerFill.SetSize(Mathf.InverseLerp(0f, timeToCollect, currTimer));
+            if (currTimer < 0)
+            {
+                currTimer = 0;
+                EndCollect();
+            }                
+        }
+    }
+
+    private void CollectInput()
+    {
+        if (!collectTimer)
+            GiveResource();
+        else
+            CollectTimer();
     }
 
     /// <summary>
@@ -31,14 +62,65 @@ public class Resource : MonoBehaviour
     /// </summary>
     private void GiveResource()
     {
-        if(currAmount > 0)
+        if(!CheckResource())
         {
-            ResourceManager.Instance.AddToStack(type, 1);
-            currAmount--;
-            UpdateUI();
-
-            //Debug.Log($"Giving player resource from {gameObject.name} of type {type}. Remaining amount: {currAmount}");
+            return;
         }
+
+        ResourceManager.Instance.AddToStack(type, 1);
+        currAmount--;
+        UpdateUI();
+
+        //Debug.Log($"Giving player resource from {gameObject.name} of type {type}. Remaining amount: {currAmount}");
+
+        //Check remaining resources
+        if(!CheckResource())
+        {
+            PlayerInteraction.OnInteract.RemoveListener(CollectInput);
+            feedback.SetActive(false);
+        }
+    }
+
+    private void CollectTimer()
+    {
+        PlayerInteraction.OnReleaseInteract.AddListener(StopCollect);
+
+        currTimer = timeToCollect;
+        isCollecting = true;
+        timerFill.Toggle(true);
+    }
+
+    private void EndCollect()
+    {
+        //Timer ended
+        GiveResource();
+
+        if (CheckResource())
+        {
+            CollectTimer();
+        }
+        else
+        {
+            StopCollect();
+        }
+    }
+
+    private void StopCollect()
+    {
+        PlayerInteraction.OnReleaseInteract.RemoveListener(StopCollect);
+
+        currTimer = 0;
+        isCollecting = false;
+        timerFill.Toggle(false);
+    }
+
+    /// <summary>
+    /// Returns true if resources is available.
+    /// </summary>
+    /// <returns></returns>
+    public bool CheckResource()
+    {
+        return currAmount > 0;
     }
 
     private void UpdateUI()
@@ -48,9 +130,9 @@ public class Resource : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (currAmount == 0)
+        if (!CheckResource())
         {
-            //Debug.Log($"No more resources available in {gameObject.name}");
+            //Debug.Log($"No more resources available in {gameObject.name}");            
             return;
         }
 
@@ -58,15 +140,23 @@ public class Resource : MonoBehaviour
         {
             feedback.SetActive(true);
 
-            GiveResource();
+            PlayerInteraction.OnInteract.AddListener(CollectInput);
         }
     }
 
     private void OnTriggerExit(Collider other)
     {
+        if (!CheckResource()) //Avoid comparing tag if no resource is available
+            return;
+
+        if (isCollecting)
+            StopCollect();
+
         if (other.CompareTag("Player"))
         {
             feedback.SetActive(false);
+
+            PlayerInteraction.OnInteract.RemoveListener(CollectInput);
         }
     }
 }
