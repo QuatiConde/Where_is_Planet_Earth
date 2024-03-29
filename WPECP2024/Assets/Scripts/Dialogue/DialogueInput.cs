@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class DialogueInput : DialogueTrigger
 {
+    //References
     private GameObject feedback;
 
     private void Start()
