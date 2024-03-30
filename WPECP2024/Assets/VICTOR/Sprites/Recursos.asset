@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Recursos
   m_EditorClassIdentifier: 
   hashCode: -1159055300
-  material: {fileID: 4093618987829953739}
+  material: {fileID: 2918103248107410224}
   materialHashCode: 0
   m_Version: 1.1.0
   m_FaceInfo:
@@ -55,10 +55,22 @@ MonoBehaviour:
     m_HashCode: 146195232
   - m_ElementType: 2
     m_Unicode: 65534
-    m_GlyphIndex: 2
+    m_GlyphIndex: 4
     m_Scale: 1
     m_Name: Agua
     m_HashCode: 2236274
+  - m_ElementType: 2
+    m_Unicode: 65534
+    m_GlyphIndex: 3
+    m_Scale: 1
+    m_Name: Semente
+    m_HashCode: 1306016513
+  - m_ElementType: 2
+    m_Unicode: 65534
+    m_GlyphIndex: 2
+    m_Scale: 1
+    m_Name: Adubo
+    m_HashCode: 73824413
   m_SpriteGlyphTable:
   - m_Index: 0
     m_Metrics:
@@ -68,8 +80,8 @@ MonoBehaviour:
       m_HorizontalBearingY: 138
       m_HorizontalAdvance: 500
     m_GlyphRect:
-      m_X: 4
-      m_Y: 672
+      m_X: 461
+      m_Y: 1017
       m_Width: 500
       m_Height: 276
     m_Scale: 1
@@ -85,8 +97,8 @@ MonoBehaviour:
       m_HorizontalBearingY: 153.5
       m_HorizontalAdvance: 498
     m_GlyphRect:
-      m_X: 4
-      m_Y: 355
+      m_X: 461
+      m_Y: 700
       m_Width: 498
       m_Height: 307
     m_Scale: 1
@@ -96,13 +108,47 @@ MonoBehaviour:
       type: 3}
   - m_Index: 2
     m_Metrics:
+      m_Width: 484
+      m_Height: 337
+      m_HorizontalBearingX: -242
+      m_HorizontalBearingY: 168.5
+      m_HorizontalAdvance: 484
+    m_GlyphRect:
+      m_X: 461
+      m_Y: 355
+      m_Width: 484
+      m_Height: 337
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+    sprite: {fileID: 6123024596038065955, guid: 713823861fde3e44ca090e15f13d7d98,
+      type: 3}
+  - m_Index: 3
+    m_Metrics:
+      m_Width: 449
+      m_Height: 430
+      m_HorizontalBearingX: -224.5
+      m_HorizontalBearingY: 215
+      m_HorizontalAdvance: 449
+    m_GlyphRect:
+      m_X: 4
+      m_Y: 4
+      m_Width: 449
+      m_Height: 430
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+    sprite: {fileID: -926283444215397449, guid: 713823861fde3e44ca090e15f13d7d98,
+      type: 3}
+  - m_Index: 4
+    m_Metrics:
       m_Width: 500
       m_Height: 343
       m_HorizontalBearingX: -250
       m_HorizontalBearingY: 171.5
       m_HorizontalAdvance: 500
     m_GlyphRect:
-      m_X: 6
+      m_X: 463
       m_Y: 4
       m_Width: 500
       m_Height: 343
@@ -113,7 +159,7 @@ MonoBehaviour:
       type: 3}
   spriteInfoList: []
   fallbackSpriteAssets: []
---- !u!21 &4093618987829953739
+--- !u!21 &2918103248107410224
 Material:
   serializedVersion: 8
   m_ObjectHideFlags: 1

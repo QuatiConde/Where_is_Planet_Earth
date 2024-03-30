@@ -93,18 +93,18 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData:
-  - name: Titanio
+  - name: Adubo
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
+      x: 461
       y: 355
-      width: 498
-      height: 307
-    spriteID: ed4ed9b706318184d9b7eddcd705fced
+      width: 484
+      height: 337
+    spriteID: 6a4eda953e4748141a24ab2cfc66148d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -112,9 +112,9 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 355}
-    spritePosition: {x: 1, y: 54}
-  - name: Uranio
+    uvTransform: {x: 461, y: 355}
+    spritePosition: {x: 8, y: 82}
+  - name: Semente
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -122,7 +122,28 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 672
+      y: 4
+      width: 449
+      height: 430
+    spriteID: ed4cfe1020af1be4ca69b5a4f73ec97f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 25, y: 35}
+  - name: Uranio
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 461
+      y: 1017
       width: 500
       height: 276
     spriteID: 197b93cc4da31ae4e82c6053f68136d0
@@ -133,8 +154,29 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 670}
+    uvTransform: {x: 461, y: 1015}
     spritePosition: {x: 0, y: 87}
+  - name: Titanio
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 461
+      y: 700
+      width: 498
+      height: 307
+    spriteID: ed4ed9b706318184d9b7eddcd705fced
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 461, y: 700}
+    spritePosition: {x: 1, y: 54}
   - name: Agua
     originalName: 
     pivot: {x: 0.5, y: 0.5}
@@ -142,7 +184,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 6
+      x: 463
       y: 4
       width: 500
       height: 343
@@ -154,7 +196,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: 461, y: 4}
     spritePosition: {x: 0, y: 79}
   rigSpriteImportData:
   - name: Titanio
@@ -358,13 +400,33 @@ ScriptedImporter:
   spritePackingTag: 
   resliceFromLayer: 0
   mosaicPSDLayers:
+  - name: Adubo
+    spriteName: Adubo
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 6a4eda953e4748141a24ab2cfc66148d
+    layerID: 7
+    mosaicPosition: {x: 461, y: 355}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
+  - name: Semente
+    spriteName: Semente
+    isGroup: 0
+    parentIndex: -1
+    spriteID: ed4cfe1020af1be4ca69b5a4f73ec97f
+    layerID: 6
+    mosaicPosition: {x: 4, y: 4}
+    flatten: 0
+    isImported: 1
+    isVisible: 1
   - name: Uranio
     spriteName: Uranio
     isGroup: 0
     parentIndex: -1
     spriteID: 197b93cc4da31ae4e82c6053f68136d0
     layerID: 3
-    mosaicPosition: {x: 4, y: 670}
+    mosaicPosition: {x: 461, y: 1015}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -374,7 +436,7 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: ed4ed9b706318184d9b7eddcd705fced
     layerID: 4
-    mosaicPosition: {x: 4, y: 355}
+    mosaicPosition: {x: 461, y: 700}
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -384,7 +446,7 @@ ScriptedImporter:
     parentIndex: -1
     spriteID: 4a78651f85ecbce40bcf87930464385a
     layerID: 2
-    mosaicPosition: {x: 4, y: 4}
+    mosaicPosition: {x: 461, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
