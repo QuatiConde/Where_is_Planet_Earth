@@ -1,9 +1,5 @@
 fileFormatVersion: 2
-<<<<<<< Updated upstream
 guid: 5e294f5502710a74fb813711ec0fbf2f
-=======
-guid: 7e3761af152b8734ea4f87f2359ce215
->>>>>>> Stashed changes
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -106,17 +102,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-<<<<<<< Updated upstream
-      y: 331
-      width: 427
-      height: 98
-    spriteID: 6824dc4856ac44b448a3118e88622873
-=======
       y: 365
       width: 427
       height: 98
-    spriteID: e22a57686cb7d7543a1d6e56d24f14c7
->>>>>>> Stashed changes
+    spriteID: 5b4d475a1e77cc845932af660b7c3f44
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -124,11 +113,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-<<<<<<< Updated upstream
-    uvTransform: {x: 4, y: 331}
-=======
     uvTransform: {x: 4, y: 365}
->>>>>>> Stashed changes
     spritePosition: {x: 23, y: 112}
   - name: sementecolet
     originalName: 
@@ -139,15 +124,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-<<<<<<< Updated upstream
-      width: 373
-      height: 319
-    spriteID: 85eceb9acc344ec47b77ccd4ea0bf358
-=======
       width: 495
       height: 353
-    spriteID: fa612d8609e2c7c42a29bc31da0b7040
->>>>>>> Stashed changes
+    spriteID: 24ad9162d056b18458b1b22b79b512f7
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -155,13 +134,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-<<<<<<< Updated upstream
-    uvTransform: {x: 4, y: 4}
-    spritePosition: {x: 75, y: 112}
-=======
     uvTransform: {x: 3, y: 4}
     spritePosition: {x: 3, y: 49}
->>>>>>> Stashed changes
   characterData:
     bones: []
     parts: []
@@ -200,15 +174,9 @@ ScriptedImporter:
     spriteName: aguapossa
     isGroup: 0
     parentIndex: -1
-<<<<<<< Updated upstream
-    spriteID: 6824dc4856ac44b448a3118e88622873
-    layerID: 4
-    mosaicPosition: {x: 4, y: 331}
-=======
-    spriteID: e22a57686cb7d7543a1d6e56d24f14c7
+    spriteID: 5b4d475a1e77cc845932af660b7c3f44
     layerID: 4
     mosaicPosition: {x: 4, y: 365}
->>>>>>> Stashed changes
     flatten: 0
     isImported: 1
     isVisible: 1
@@ -216,11 +184,7 @@ ScriptedImporter:
     spriteName: sementecolet
     isGroup: 0
     parentIndex: -1
-<<<<<<< Updated upstream
-    spriteID: 85eceb9acc344ec47b77ccd4ea0bf358
-=======
-    spriteID: fa612d8609e2c7c42a29bc31da0b7040
->>>>>>> Stashed changes
+    spriteID: 24ad9162d056b18458b1b22b79b512f7
     layerID: 3
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
