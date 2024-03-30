@@ -14,9 +14,6 @@ public class ShipBehaviour : MonoBehaviour, IFeedback
     {
         //Get references
         galaxy = GalaxyUI.Instance;
-        //Feedback
-        interaction = GetComponent<FeedbackInteraction>();
-        SubscribeFeedback();
     }
 
     #region Interaction events
@@ -43,4 +40,19 @@ public class ShipBehaviour : MonoBehaviour, IFeedback
         interaction.OnExit.AddListener(OnPlayerExit);
     }
     #endregion
+
+    private void OnEnable()
+    {
+        //Feedback
+        interaction = GetComponent<FeedbackInteraction>();
+        SubscribeFeedback();
+    }
+
+    private void OnDisable()
+    {
+        interaction.OnInteract.RemoveListener(OnInteract);
+        interaction.OnEnter.RemoveListener(OnPlayerEnter);
+        interaction.OnExit.RemoveListener(OnPlayerExit);
+
+    }
 }

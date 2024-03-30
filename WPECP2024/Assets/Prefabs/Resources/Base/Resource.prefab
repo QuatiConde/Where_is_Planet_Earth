@@ -107,6 +107,7 @@ GameObject:
   m_Component:
   - component: {fileID: 912065461778578102}
   - component: {fileID: 8183587858512396540}
+  - component: {fileID: -8050800074824945118}
   - component: {fileID: 2975163004625248838}
   m_Layer: 0
   m_Name: Resource
@@ -146,13 +147,34 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 13c11e39dc763814f9d73c9683b10bf7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 0
+  type: 2
   currAmount: 0
   maxAmount: 3
   collectTimer: 1
   timeToCollect: 3
   currTimer: 0
   isCollecting: 0
+--- !u!114 &-8050800074824945118
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1434823384745699020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bda97bcc83ee8b74dbda0d8f40333450, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  OnInteract:
+    m_PersistentCalls:
+      m_Calls: []
+  OnEnter:
+    m_PersistentCalls:
+      m_Calls: []
+  OnExit:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!65 &2975163004625248838
 BoxCollider:
   m_ObjectHideFlags: 0

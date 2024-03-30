@@ -131,6 +131,7 @@ GameObject:
   - component: {fileID: 4573220808818590636}
   - component: {fileID: 990869603956647399}
   - component: {fileID: 42537274227850687}
+  - component: {fileID: 3456055337681058804}
   m_Layer: 0
   m_Name: Alien
   m_TagString: Player
@@ -154,7 +155,7 @@ Transform:
   - {fileID: 5217334025150593431}
   - {fileID: 2604585252174298653}
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5151532284941674642
 MonoBehaviour:
@@ -184,22 +185,6 @@ MonoBehaviour:
   m_ActionEvents:
   - m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 42537274227850687}
-        m_TargetAssemblyTypeName: PlayerInteraction, Assembly-CSharp
-        m_MethodName: OnInteractInput
-        m_Mode: 0
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-    m_ActionId: 5477aa78-22cd-4b8f-af87-9272a82c1971
-    m_ActionName: Interaction/Interact[/Keyboard/e]
-  - m_PersistentCalls:
-      m_Calls:
       - m_Target: {fileID: 990869603956647399}
         m_TargetAssemblyTypeName: PlayerMovement, Assembly-CSharp
         m_MethodName: OnMoveInput
@@ -214,9 +199,25 @@ MonoBehaviour:
         m_CallState: 2
     m_ActionId: 7d87a43f-21c2-4ad4-9a0c-82a6f52a8a65
     m_ActionName: Movement/Move[/Keyboard/w,/Keyboard/s,/Keyboard/a,/Keyboard/d]
+  - m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 42537274227850687}
+        m_TargetAssemblyTypeName: PlayerInteraction, Assembly-CSharp
+        m_MethodName: OnInteractInput
+        m_Mode: 0
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+    m_ActionId: f3bce3a6-628f-4f04-8ca2-5510a0524442
+    m_ActionName: Default/New action
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Movement
+  m_DefaultActionMap: Default
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!143 &4573220808818590636
@@ -257,7 +258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e22ccf4c7962dd94d9a62d30517c059f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 7
+  speed: 12
 --- !u!114 &42537274227850687
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -270,6 +271,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e18ca3eeadb56c545a197aecb03217f9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &3456055337681058804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4564562740162536715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b17af5ed8f85eed41b3be6ae4c67c5f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interaction: {fileID: 0}
 --- !u!1 &7005848849251040906
 GameObject:
   m_ObjectHideFlags: 0
@@ -323,7 +337,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: f4659889581c1e54bac52593a3d78a9a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

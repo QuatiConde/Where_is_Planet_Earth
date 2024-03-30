@@ -22,3 +22,23 @@ MonoBehaviour:
   - index: 1
     context: Toca quando o player se aproxima da nave destruida
     dialogue: "Que pena! Sua nave quebrou e ele precisa de alguns itens para consert\xE1-la."
+  - index: 2
+    context: Ao se aproximar primeira vez da base
+    dialogue: "Parece que o explorador solit\xE1rio encontrou algo\u2026"
+  - index: 3
+    context: "Ap\xF3s entrar na base"
+    dialogue: "N\xE3o seria interessante entrar e explorar este espa\xE7o?"
+  - index: 4
+    context: Aproximar da casinha
+    dialogue: "O sinal da base ainda insiste em existir, para a sorte do explorador
+      solit\xE1rio. Ele observa o mapeamento em seu rel\xF3gio e constata que ainda
+      existem 4 planetas em 4 gal\xE1xias diferentes, com os itens que precisa para
+      consertar sua nave."
+  - index: 5
+    context: Afastar da casinha
+    dialogue: "Mas antes ele deve coletar as sementes, para plantar nas baes pr\xF3ximas!"
+  - index: 6
+    context: Aproximar da base 2
+    dialogue: "Interessante, todas as bases tem alguma coisa, pelo que o nosso explorador
+      verificou eles estavam tentando terraformar os planetas, ent\xE3o ele decidiu
+      terraformar os planetas"
