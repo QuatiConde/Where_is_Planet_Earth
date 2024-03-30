@@ -9,7 +9,7 @@ EditorBuildSettings:
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
-    path: Assets/Scenes/Planeta1.unity
+    path: Assets/Scenes/Planetas.unity
     guid: 52a3657acf3a37c47908097bd8a6c8fb
   - enabled: 1
     path: Assets/Scenes/IntroeMenus.unity

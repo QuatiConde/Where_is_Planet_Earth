@@ -14,12 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogues:
   - index: 0
-    context: O narrador introduz o ET que perdeu o controle na nave e caiu em uma
-      galaxia em um planeta.
-    dialogue: "Di\xE1logo do in\xEDcio do primeiro mundo"
-  - index: 1
     context: Nave cai em um planeta. Narrador comenta sobre o acontecido.
     dialogue: "O explorador solit\xE1rio percebe que caiu em um planeta desconhecido.
       Se pergunta o que deve ter motivado a queda de sua nave, afinal tempestades
       espaciais s\xE3o raras naquele per\xEDmetro, segundo os pr\xF3prios estudos
       que fez."
+  - index: 1
+    context: Toca quando o player se aproxima da nave destruida
+    dialogue: "Que pena! Sua nave quebrou e ele precisa de alguns itens para consert\xE1-la."
