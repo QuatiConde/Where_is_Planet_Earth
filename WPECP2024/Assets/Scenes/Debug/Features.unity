@@ -2572,7 +2572,7 @@ PrefabInstance:
     - target: {fileID: 1285129346162802901, guid: 227e22263f1183649b4765bed09fe223,
         type: 3}
       propertyPath: m_Name
-      value: Trigger
+      value: Bucket
       objectReference: {fileID: 0}
     - target: {fileID: 6161613583187689363, guid: 227e22263f1183649b4765bed09fe223,
         type: 3}
@@ -3057,6 +3057,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5058210905611921658, guid: 8c37719ce20c4f047b2f25a63f395e48,
+        type: 3}
+      propertyPath: m_FlipX
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5058210905611921658, guid: 8c37719ce20c4f047b2f25a63f395e48,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: f4659889581c1e54bac52593a3d78a9a, type: 2}
     - target: {fileID: 5151532284941674642, guid: 8c37719ce20c4f047b2f25a63f395e48,
         type: 3}
       propertyPath: m_DefaultActionMap

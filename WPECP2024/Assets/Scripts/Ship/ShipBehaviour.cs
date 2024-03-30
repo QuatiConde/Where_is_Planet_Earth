@@ -14,8 +14,8 @@ public class ShipBehaviour : MonoBehaviour, IFeedback
     {
         //Get references
         galaxy = GalaxyUI.Instance;
+        //Feedback
         interaction = GetComponent<FeedbackInteraction>();
-        //Initial values
         SubscribeFeedback();
     }
 

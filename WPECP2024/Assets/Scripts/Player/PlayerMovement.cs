@@ -68,9 +68,15 @@ public class PlayerMovement : MonoBehaviour
     private void SetFacingDirection()
     {
         if (moveVector.x > 0)
-            sprite.flipX = false;
+        {
+            //sprite.flipX = false;
+            transform.localScale = new(1f, 1f, 1f);
+        }            
         else if (moveVector.x < 0)
-            sprite.flipX = true;
+        {
+            //sprite.flipX = true;
+            transform.localScale = new(-1f, 1f, 1f);
+        }
     }
 
     public void OnMoveInput(InputAction.CallbackContext ctx)
