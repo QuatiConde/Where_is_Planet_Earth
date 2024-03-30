@@ -3,7 +3,7 @@ using NaughtyAttributes;
 using TMPro;
 
 public enum ResourceType { Water, Uranium, Titanium, Seed, Fertilizer }
-public class Resource : MonoBehaviour
+public class Resource : MonoBehaviour, IFeedback
 {
     [Header("Settings")]
     public ResourceType type;
@@ -17,20 +17,20 @@ public class Resource : MonoBehaviour
     private SpriteFill timerFill;
 
     //References
-    private GameObject feedback;
     private TMP_Text amountText;
+    private FeedbackInteraction interaction;
 
     private void Start()
     {
         //Get references
-        feedback = transform.Find("InteractionFeedback").gameObject;
         amountText = GetComponentInChildren<TMP_Text>();
         timerFill = GetComponentInChildren<SpriteFill>();
+        interaction = GetComponent<FeedbackInteraction>();
         //Initial values
         currAmount = maxAmount;
-        feedback.SetActive(false);
         timerFill.Toggle(false);
         UpdateUI();
+        SubscribeFeedback();
     }
 
     private void Update()
@@ -76,8 +76,7 @@ public class Resource : MonoBehaviour
         //Check remaining resources
         if(!CheckResource())
         {
-            PlayerInteraction.OnInteract.RemoveListener(CollectInput);
-            feedback.SetActive(false);
+            interaction.Toggle(false);
         }
     }
 
@@ -128,35 +127,35 @@ public class Resource : MonoBehaviour
         amountText.text = $"{currAmount}/{maxAmount}";
     }
 
-    private void OnTriggerEnter(Collider other)
+    #region Interaction events
+    public void OnInteract()
+    {
+        CollectInput();
+    }
+
+    public void OnPlayerEnter()
     {
         if (!CheckResource())
         {
             //Debug.Log($"No more resources available in {gameObject.name}");            
             return;
         }
-
-        if (other.CompareTag("Player"))
-        {
-            feedback.SetActive(true);
-
-            PlayerInteraction.OnInteract.AddListener(CollectInput);
-        }
     }
 
-    private void OnTriggerExit(Collider other)
+    public void OnPlayerExit()
     {
         if (!CheckResource()) //Avoid comparing tag if no resource is available
             return;
 
         if (isCollecting)
             StopCollect();
-
-        if (other.CompareTag("Player"))
-        {
-            feedback.SetActive(false);
-
-            PlayerInteraction.OnInteract.RemoveListener(CollectInput);
-        }
     }
+
+    public void SubscribeFeedback()
+    {
+        interaction.OnInteract.AddListener(OnInteract);
+        interaction.OnEnter.AddListener(OnPlayerEnter);
+        interaction.OnExit.AddListener(OnPlayerExit);
+    }
+    #endregion
 }

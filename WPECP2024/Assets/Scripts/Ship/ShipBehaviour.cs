@@ -1,47 +1,46 @@
 using UnityEngine;
 
-public enum Galaxies { One, Two, Three, Four, Five}
-public class ShipBehaviour : MonoBehaviour
+public enum Galaxies { One, Two, Three}
+public class ShipBehaviour : MonoBehaviour, IFeedback
 {
     [Header("Tracking Values")]
     public Galaxies currGalaxy;
 
     //References
     private GalaxyUI galaxy;
-    private GameObject feedback;
+    private FeedbackInteraction interaction;
 
     private void Start()
     {
         //Get references
         galaxy = GalaxyUI.Instance;
-        feedback = transform.Find("InteractionFeedback").gameObject;
+        interaction = GetComponent<FeedbackInteraction>();
         //Initial values
-        feedback.SetActive(false);
+        SubscribeFeedback();
     }
 
-    private void OnInteract()
+    #region Interaction events
+    public void OnInteract()
     {
         //Open galaxies UI
         galaxy.ToggleGalaxySelection(true);
     }
 
-    private void OnTriggerEnter(Collider other)
+    public void OnPlayerEnter()
     {
-        if (other.CompareTag("Player"))
-        {
-            feedback.SetActive(true);
 
-            PlayerInteraction.OnInteract.AddListener(OnInteract);
-        }
     }
 
-    private void OnTriggerExit(Collider other)
+    public void OnPlayerExit()
     {
-        if (other.CompareTag("Player"))
-        {
-            feedback.SetActive(false);
 
-            PlayerInteraction.OnInteract.AddListener(OnInteract);
-        }
     }
+
+    public void SubscribeFeedback()
+    {
+        interaction.OnInteract.AddListener(OnInteract);
+        interaction.OnEnter.AddListener(OnPlayerEnter);
+        interaction.OnExit.AddListener(OnPlayerExit);
+    }
+    #endregion
 }
