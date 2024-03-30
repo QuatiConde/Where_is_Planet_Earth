@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a22deaf0a7012864488ba271971386ec
+guid: 4c6cbd9e217c71745b3433ec7fd6d7ed
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -93,176 +93,7 @@ ScriptedImporter:
     uvTransform: {x: 0, y: 0}
     spritePosition: {x: 0, y: 0}
   mosaicSpriteImportData:
-  - name: Base
-    originalName: 
-    pivot: {x: 0.49648732, y: 0.019822592}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 516
-      width: 722
-      height: 375
-    spriteID: 439bcc0acfe220844bda3c802896239f
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: -17}
-    spritePosition: {x: 83, y: 142}
-  - name: treegrow
-    originalName: 
-    pivot: {x: 0.5, y: 0.5}
-    alignment: 0
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 818
-      y: 899
-      width: 904
-      height: 852
-    spriteID: 3191eb0c9f45a8f4f8d767cf7895e414
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 899}
-    spritePosition: {x: 165, y: 223}
-  - name: Jogo wpe 2_0
-    originalName: 
-    pivot: {x: 0.50584364, y: 0.10041382}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 918
-      y: 494
-      width: 434
-      height: 311
-    spriteID: 457ed29fbc155ac4fa6ccbbd3554b434
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 918, y: 494}
-    spritePosition: {x: 0, y: 0}
-  - name: Jogo wpe 2_1
-    originalName: 
-    pivot: {x: 0.43795395, y: 0.03888217}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 1403
-      y: 503
-      width: 327
-      height: 396
-    spriteID: 6fcca2d9511b94c4f999cb85796c9c3b
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 1403, y: 503}
-    spritePosition: {x: 0, y: 0}
-  - name: Jogo wpe 2_2
-    originalName: 
-    pivot: {x: 0.47712237, y: 0.079204045}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 946
-      y: 44
-      width: 776
-      height: 446
-    spriteID: 5301574cea4452441b182a21e67117f3
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 946, y: 44}
-    spritePosition: {x: 0, y: 0}
-  - name: Jogo wpe 2_3
-    originalName: 
-    pivot: {x: 0.5145337, y: 0.11739114}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 600
-      y: 0
-      width: 349
-      height: 232
-    spriteID: ae200e7bc1648bd40ae88c51f57eb9a4
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 600, y: 0}
-    spritePosition: {x: 0, y: 0}
-  - name: Jogo wpe 2_4
-    originalName: 
-    pivot: {x: 0.5061409, y: 0.09726384}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 406
-      y: 282
-      width: 413
-      height: 233
-    spriteID: c779379a869d4334e8e340101ac3e62f
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 406, y: 282}
-    spritePosition: {x: 0, y: 0}
-  - name: Jogo wpe 2_5
-    originalName: 
-    pivot: {x: 0.4427936, y: 0.04576437}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 24
-      y: 93
-      width: 399
-      height: 402
-    spriteID: 21d8f4ca9d094584eb9de6df9ae5273a
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 24, y: 93}
-    spritePosition: {x: 0, y: 0}
-  rigSpriteImportData:
-  - name: Base
+  - name: rochas
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -271,9 +102,9 @@ ScriptedImporter:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 1711
-      height: 887
-    spriteID: e2ae0a638ac10ad40bd1bf8390ea318d
+      width: 480
+      height: 473
+    spriteID: 74ef12e85f82e7649a89036f330ba861
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -281,9 +112,10 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: -17}
-    spritePosition: {x: 83, y: 142}
-  - name: treegrow
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 14, y: 5}
+  rigSpriteImportData:
+  - name: rochas
     originalName: 
     pivot: {x: 0.5, y: 0.5}
     alignment: 0
@@ -291,10 +123,10 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 899
-      width: 1718
-      height: 852
-    spriteID: 1424400e6b8aacc4080ebb8ef1c2c786
+      y: 4
+      width: 480
+      height: 473
+    spriteID: 311bfbe2ba9c8e442bc9c5b518972c27
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -302,8 +134,8 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 899}
-    spritePosition: {x: 165, y: 223}
+    uvTransform: {x: 4, y: 4}
+    spritePosition: {x: 14, y: 5}
   characterData:
     bones: []
     parts: []
@@ -421,107 +253,47 @@ ScriptedImporter:
   spritePackingTag: 
   resliceFromLayer: 0
   mosaicPSDLayers:
-  - name: Prancheta 1
-    spriteName: 
-    isGroup: 1
-    parentIndex: -1
-    spriteID: 021f30c70f53f904296ffc2956366fba
-    layerID: 3
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 1
-  - name: base
-    spriteName: 
-    isGroup: 1
-    parentIndex: 0
-    spriteID: 1b84d5043e6a28d4eb6d41bb8876fd16
-    layerID: 14
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 1
-  - name: Base
-    spriteName: Base
+  - name: rochas
+    spriteName: rochas
     isGroup: 0
-    parentIndex: 1
-    spriteID: 439bcc0acfe220844bda3c802896239f
-    layerID: 173
+    parentIndex: -1
+    spriteID: 74ef12e85f82e7649a89036f330ba861
+    layerID: 2
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: arvore
+  - name: Plano de Fundo
     spriteName: 
-    isGroup: 1
-    parentIndex: 0
-    spriteID: 8989945bce12ff443a8e120cc9c4b57f
-    layerID: 24
+    isGroup: 0
+    parentIndex: -1
+    spriteID: 067b57ed39d982344954f60792398e7b
+    layerID: 1
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
-    isVisible: 1
-  - name: treegrow
-    spriteName: treegrow
-    isGroup: 0
-    parentIndex: 3
-    spriteID: 3191eb0c9f45a8f4f8d767cf7895e414
-    layerID: 164
-    mosaicPosition: {x: 4, y: 899}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
+    isVisible: 0
   rigPSDLayers:
-  - name: Prancheta 1
-    spriteName: 
-    isGroup: 1
-    parentIndex: -1
-    spriteID: 95ce3bd15cd21ce489643b8f4e149199
-    layerID: 3
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 1
-  - name: base
-    spriteName: 
-    isGroup: 1
-    parentIndex: 0
-    spriteID: 72e9434823f0ec64ab769577ce9ff5e4
-    layerID: 14
-    mosaicPosition: {x: 0, y: 0}
-    flatten: 0
-    isImported: 0
-    isVisible: 1
-  - name: Base
-    spriteName: Base
+  - name: rochas
+    spriteName: rochas
     isGroup: 0
-    parentIndex: 1
-    spriteID: e2ae0a638ac10ad40bd1bf8390ea318d
-    layerID: 173
+    parentIndex: -1
+    spriteID: 311bfbe2ba9c8e442bc9c5b518972c27
+    layerID: 2
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
     isImported: 1
     isVisible: 1
-  - name: arvore
+  - name: Plano de Fundo
     spriteName: 
-    isGroup: 1
-    parentIndex: 0
-    spriteID: b43d2eaf92cebf34db4c4d02ff4c686a
-    layerID: 24
+    isGroup: 0
+    parentIndex: -1
+    spriteID: a98d107c7e1475a42be0e890925ab4fe
+    layerID: 1
     mosaicPosition: {x: 0, y: 0}
     flatten: 0
     isImported: 0
-    isVisible: 1
-  - name: treegrow
-    spriteName: treegrow
-    isGroup: 0
-    parentIndex: 3
-    spriteID: 1424400e6b8aacc4080ebb8ef1c2c786
-    layerID: 164
-    mosaicPosition: {x: 4, y: 899}
-    flatten: 0
-    isImported: 1
-    isVisible: 1
+    isVisible: 0
   sharedRigPSDLayers: []
   pSDLayerImportSetting: []
   importFileNodeState: 1
