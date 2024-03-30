@@ -3,8 +3,11 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public static PlayerMovement Instance { get; private set; }
+
     public float speed;
     public bool IsMoving { get; private set; }
+    public bool CanMove { get; private set; }
 
     //Internal values
     private Vector3 moveVector;
@@ -13,19 +16,38 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
     private SpriteRenderer sprite;
 
+    private void Awake()
+    {
+        if (Instance == null)
+            Instance = this;
+    }
+
     private void Start()
     {
         //Get references
         controller = GetComponent<CharacterController>();
         sprite = transform.Find("Sprite").GetComponent<SpriteRenderer>();
         anim = sprite.GetComponent<Animator>();
+        //Initial values
+        ToggleMovement(true);
     }
 
     private void Update()
     {
-        Move();
-        AnimationParameters();
-        SetFacingDirection();
+        if (CanMove)
+        {
+            Move();
+            AnimationParameters();
+            SetFacingDirection();
+        }        
+    }
+
+    public void ToggleMovement(bool toggle)
+    {
+        CanMove = toggle;
+
+        if (!toggle)
+            anim.SetBool("IsMoving", false);
     }
 
     private void Move()
