@@ -1,37 +1,40 @@
-using UnityEngine;
-
-public class DialogueInput : DialogueTrigger
+public class DialogueInput : DialogueTrigger, IFeedback
 {
-    //References
-    private GameObject feedback;
+    private FeedbackInteraction interaction;
 
     private void Start()
     {
         //Get references
-        feedback = transform.Find("InteractionFeedback").gameObject;
+        interaction = GetComponent<FeedbackInteraction>();
         //Initial values
-        feedback.SetActive(false);
+        SubscribeFeedback();
+    }
+
+    public void SubscribeFeedback()
+    {
+        interaction.OnInteract.AddListener(OnInteract);
+        interaction.OnEnter.AddListener(OnPlayerEnter);
+        interaction.OnExit.AddListener(OnPlayerExit);
     }
 
     public override void OnPlayerEnter()
     {
-        feedback.SetActive(true);
-
         PlayerInteraction.OnInteract.AddListener(ShowDialogue);
     }
 
     public override void OnPlayerExit()
     {
-        feedback.SetActive(false);
-
         PlayerInteraction.OnInteract.RemoveListener(ShowDialogue);        
+    }
+
+    public void OnInteract()
+    {
+        ShowDialogue();
     }
 
     public override void ShowDialogue()
     {
         base.ShowDialogue();
-
-        feedback.SetActive(false);
 
         PlayerInteraction.OnInteract.RemoveListener(ShowDialogue);
     }
