@@ -50,6 +50,9 @@ public class Resource : MonoBehaviour, IFeedback
 
     private void CollectInput()
     {
+        if (!WaterCondition())
+            return;
+
         if (!collectTimer)
             GiveResource();
         else
@@ -67,11 +70,8 @@ public class Resource : MonoBehaviour, IFeedback
             return;
         }
 
-        if(type == ResourceType.Water)
-        {
-            //Check if player have bucket
-
-        }
+        if (!WaterCondition())
+            return;
 
         ResourceManager.Instance.AddToStack(type, 1);
         currAmount--;
@@ -100,6 +100,13 @@ public class Resource : MonoBehaviour, IFeedback
         //Timer ended
         GiveResource();
 
+        if (!WaterCondition())
+        {
+            StopCollect();
+            return;
+        }
+
+        //Try start again
         if (CheckResource())
         {
             CollectTimer();
@@ -131,6 +138,24 @@ public class Resource : MonoBehaviour, IFeedback
     private void UpdateUI()
     {
         amountText.text = $"{currAmount}/{maxAmount}";
+    }
+
+    private bool WaterCondition()
+    {
+        if (type == ResourceType.Water)
+        {
+            //Check if player have bucket
+            if (!PlayerBucket.Instance.HasBucket)
+            {
+                //Debug.Log("Player doesn't have a bucket!");
+                return false;
+            }
+
+            if (ResourceManager.Instance.stacks.water > 0)
+                return false;
+        }
+
+        return true;
     }
 
     #region Interaction events

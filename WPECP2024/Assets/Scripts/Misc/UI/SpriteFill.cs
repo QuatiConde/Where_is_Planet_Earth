@@ -21,6 +21,9 @@ public class SpriteFill : MonoBehaviour
 
     public void SetSize(float percentage)
     {
+        if (!fill)
+            return;
+
         float clamped = 0 + (percentage * (maxFill - 0));
         fill.size = new(clamped, fill.size.y);
     }

@@ -6,6 +6,8 @@ public class PlayerBucket : MonoBehaviour
 
     public bool HasBucket { get; private set; }
 
+    public FeedbackInteraction interaction;
+
     private void Awake()
     {
         if (Instance == null)
@@ -14,7 +16,10 @@ public class PlayerBucket : MonoBehaviour
 
     private void Start()
     {
+        //Initial values
         HasBucket = false;
+        //Subscribe events
+        interaction.OnInteract.AddListener(PickBucket);
     }
 
     private void UpdateBucketUI()

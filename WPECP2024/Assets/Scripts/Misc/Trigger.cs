@@ -6,8 +6,11 @@ using UnityEngine;
 /// </summary>
 public class Trigger : MonoBehaviour, IFeedback
 {
+    [Header("Settings")]
+    public bool disableOnInteract;
     //References
     private FeedbackInteraction interaction;
+
     private void Start()
     {
         //Feedback
@@ -17,7 +20,8 @@ public class Trigger : MonoBehaviour, IFeedback
 
     public void OnInteract()
     {
-
+        if (disableOnInteract)
+            gameObject.SetActive(false);
     }
 
     public void OnPlayerEnter()
