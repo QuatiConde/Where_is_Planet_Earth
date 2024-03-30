@@ -132,6 +132,7 @@ GameObject:
   - component: {fileID: 990869603956647399}
   - component: {fileID: 42537274227850687}
   - component: {fileID: 3456055337681058804}
+  - component: {fileID: 1904650689756869053}
   m_Layer: 0
   m_Name: Alien
   m_TagString: Player
@@ -155,7 +156,7 @@ Transform:
   - {fileID: 5217334025150593431}
   - {fileID: 2604585252174298653}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &5151532284941674642
 MonoBehaviour:
@@ -281,6 +282,19 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b17af5ed8f85eed41b3be6ae4c67c5f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interaction: {fileID: 0}
+--- !u!114 &1904650689756869053
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4564562740162536715}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f27eb3f5e1b6b84b865ad266d26abac, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   interaction: {fileID: 0}

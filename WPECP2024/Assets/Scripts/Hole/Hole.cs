@@ -19,16 +19,24 @@ public class Hole : MonoBehaviour
         CloseHole();
         //Subscribe to events
         deposit.OnComplete.AddListener(NextStage);
+        PlayerShovel.OnGetShovel.AddListener(() => deposit.canInteract = true);
     }
 
     [ContextMenu("Debug")]
     public void NextStage()
     {
+        if (!PlayerShovel.Instance.HasShovel)
+        {
+            Debug.Log("Player nao tem a pa");
+            return;
+        }
+
         if (currStage == 2)
             return;
 
         currStage++;
         SetTree(currStage);
+        OpenHole();
 
         if (currStage == 2)
             return;
@@ -36,11 +44,6 @@ public class Hole : MonoBehaviour
         deposit.neededResource.seed = 1;
         deposit.neededResource.water = 1;
         deposit.UpdateAmountText();
-    }
-
-    public void Dug()
-    {
-
     }
 
     public void OpenHole()

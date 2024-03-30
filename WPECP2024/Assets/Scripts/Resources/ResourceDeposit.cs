@@ -4,6 +4,9 @@ using TMPro;
 
 public class ResourceDeposit : MonoBehaviour, IFeedback
 {
+    [Header("Settings")]
+    public bool canInteract = true;
+
     //References
     public Resources neededResource;
     private ResourceManager playerResources;
@@ -98,6 +101,9 @@ public class ResourceDeposit : MonoBehaviour, IFeedback
     #region Interaction events
     public void OnInteract()
     {
+        if (!canInteract)
+            return;
+
         if(playerResources.stacks.titanium > 0 && neededResource.titanium > 0)
         {
             if (playerResources.stacks.titanium - neededResource.titanium < 0)

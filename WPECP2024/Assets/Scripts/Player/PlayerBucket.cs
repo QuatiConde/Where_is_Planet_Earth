@@ -6,7 +6,7 @@ public class PlayerBucket : MonoBehaviour
 
     public bool HasBucket { get; private set; }
 
-    public FeedbackInteraction interaction;
+    public FeedbackInteraction interaction;    
 
     private void Awake()
     {

@@ -55,7 +55,10 @@ public class PlayerMovement : MonoBehaviour
         //moveVector = new(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
         //moveVector = Vector3.ClampMagnitude(moveVector, 1f); //Clamp so diagonal speed is not faster
 
-        controller.Move(speed * Time.deltaTime * moveVector);
+        Vector3 v = moveVector;
+        controller.Move(speed * Time.deltaTime * v);
+
+        transform.position = new(transform.position.x, 1.57f, transform.position.z);
 
         IsMoving = moveVector != Vector3.zero;
     }
