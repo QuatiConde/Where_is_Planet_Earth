@@ -25,7 +25,7 @@ public class ResourceDeposit : MonoBehaviour, IFeedback
         SubscribeFeedback();
     }
 
-    private void UpdateAmountText()
+    public void UpdateAmountText()
     {
         amountText.text = "";
 

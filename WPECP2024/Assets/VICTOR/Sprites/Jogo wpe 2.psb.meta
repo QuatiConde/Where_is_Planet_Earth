@@ -261,6 +261,48 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 24, y: 93}
     spritePosition: {x: 0, y: 0}
+  - name: Jogo wpe 2_6
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 338
+      y: 902
+      width: 490
+      height: 599
+    spriteID: 68bbcfbd243aa6b49849d2b7dc39adcf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 338, y: 902}
+    spritePosition: {x: 0, y: 0}
+  - name: Jogo wpe 2_7
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 900
+      width: 187
+      height: 256
+    spriteID: c245aac0389b68e43b5bc621dfa4a9f7
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 900}
+    spritePosition: {x: 0, y: 0}
   rigSpriteImportData:
   - name: Base
     originalName: 

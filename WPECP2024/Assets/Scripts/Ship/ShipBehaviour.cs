@@ -53,6 +53,5 @@ public class ShipBehaviour : MonoBehaviour, IFeedback
         interaction.OnInteract.RemoveListener(OnInteract);
         interaction.OnEnter.RemoveListener(OnPlayerEnter);
         interaction.OnExit.RemoveListener(OnPlayerExit);
-
     }
 }
