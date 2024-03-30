@@ -43,16 +43,16 @@ MonoBehaviour:
   m_SpriteCharacterTable:
   - m_ElementType: 2
     m_Unicode: 65534
-    m_GlyphIndex: 0
-    m_Scale: 1
-    m_Name: Uranio
-    m_HashCode: -1102428018
-  - m_ElementType: 2
-    m_Unicode: 65534
     m_GlyphIndex: 1
     m_Scale: 1
     m_Name: Titanio
     m_HashCode: 146195232
+  - m_ElementType: 2
+    m_Unicode: 65534
+    m_GlyphIndex: 0
+    m_Scale: 1
+    m_Name: Uranio
+    m_HashCode: -1102428018
   - m_ElementType: 2
     m_Unicode: 65534
     m_GlyphIndex: 2
@@ -60,13 +60,30 @@ MonoBehaviour:
     m_Name: Agua
     m_HashCode: 2236274
   m_SpriteGlyphTable:
+  - m_Index: 1
+    m_Metrics:
+      m_Width: 498
+      m_Height: 307
+      m_HorizontalBearingX: -249
+      m_HorizontalBearingY: 240
+      m_HorizontalAdvance: 280
+    m_GlyphRect:
+      m_X: 0
+      m_Y: 355
+      m_Width: 498
+      m_Height: 307
+    m_Scale: 1
+    m_AtlasIndex: 0
+    m_ClassDefinitionType: 0
+    sprite: {fileID: -4755109059578894431, guid: 713823861fde3e44ca090e15f13d7d98,
+      type: 3}
   - m_Index: 0
     m_Metrics:
       m_Width: 500
       m_Height: 276
-      m_HorizontalBearingX: -250
-      m_HorizontalBearingY: 138
-      m_HorizontalAdvance: 500
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 240
+      m_HorizontalAdvance: 550
     m_GlyphRect:
       m_X: 4
       m_Y: 672
@@ -77,30 +94,13 @@ MonoBehaviour:
     m_ClassDefinitionType: 0
     sprite: {fileID: 6258184945415055437, guid: 713823861fde3e44ca090e15f13d7d98,
       type: 3}
-  - m_Index: 1
-    m_Metrics:
-      m_Width: 498
-      m_Height: 307
-      m_HorizontalBearingX: -249
-      m_HorizontalBearingY: 153.5
-      m_HorizontalAdvance: 498
-    m_GlyphRect:
-      m_X: 4
-      m_Y: 355
-      m_Width: 498
-      m_Height: 307
-    m_Scale: 1
-    m_AtlasIndex: 0
-    m_ClassDefinitionType: 0
-    sprite: {fileID: -4755109059578894431, guid: 713823861fde3e44ca090e15f13d7d98,
-      type: 3}
   - m_Index: 2
     m_Metrics:
       m_Width: 500
       m_Height: 343
-      m_HorizontalBearingX: -250
-      m_HorizontalBearingY: 171.5
-      m_HorizontalAdvance: 500
+      m_HorizontalBearingX: 0
+      m_HorizontalBearingY: 300
+      m_HorizontalAdvance: 550
     m_GlyphRect:
       m_X: 6
       m_Y: 4

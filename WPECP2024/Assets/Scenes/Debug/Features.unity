@@ -313,8 +313,8 @@ MonoBehaviour:
   neededResource:
     water: 3
     uranium: 4
-    titanium: 0
-    seed: 7
+    titanium: 3
+    seed: 0
     fertilizer: 0
   OnComplete:
     m_PersistentCalls:
@@ -2415,7 +2415,7 @@ MonoBehaviour:
     bottomLeft: {r: 1, g: 1, b: 1, a: 1}
     bottomRight: {r: 1, g: 1, b: 1, a: 1}
   m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
+  m_spriteAsset: {fileID: 11400000, guid: 7721970599c9d0a40ae604c9a84e79b4, type: 2}
   m_tintAllSprites: 0
   m_StyleSheet: {fileID: 0}
   m_TextStyleHashCode: -1183493901
