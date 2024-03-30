@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< Updated upstream
 guid: 9cc7d84b3e45619418f6b29fc1a77a6c
+=======
+guid: 07b412f86285f52409c6018e58cf8c2f
+>>>>>>> Stashed changes
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -92,6 +96,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
     spritePosition: {x: 0, y: 0}
+<<<<<<< Updated upstream
   mosaicSpriteImportData:
   - name: frente
     originalName: 
@@ -198,6 +203,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 431}
     spritePosition: {x: 9, y: 37}
+=======
+  mosaicSpriteImportData: []
+>>>>>>> Stashed changes
   rigSpriteImportData:
   - name: frente
     originalName: 
@@ -210,7 +218,11 @@ ScriptedImporter:
       y: 4
       width: 490
       height: 419
+<<<<<<< Updated upstream
     spriteID: 235a36c1eb3a86f41a60b5cbea092916
+=======
+    spriteID: 7f1dca81e0eee8d4b91d741f68172797
+>>>>>>> Stashed changes
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -231,7 +243,11 @@ ScriptedImporter:
       y: 537
       width: 173
       height: 186
+<<<<<<< Updated upstream
     spriteID: 42937de515575ea41b4ffeb5a2207305
+=======
+    spriteID: b604ab1503d716e48bab5f2c161791dd
+>>>>>>> Stashed changes
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -252,7 +268,11 @@ ScriptedImporter:
       y: 346
       width: 194
       height: 183
+<<<<<<< Updated upstream
     spriteID: b1fb6071dce8e06468439461ef67d0c6
+=======
+    spriteID: f6dbff9ea67852949b0c1a46b8858f21
+>>>>>>> Stashed changes
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -273,7 +293,11 @@ ScriptedImporter:
       y: 4
       width: 455
       height: 334
+<<<<<<< Updated upstream
     spriteID: 43b45be97c562e54abd7905301edac85
+=======
+    spriteID: 638001ba826b3454b9aa8cc30913f7ed
+>>>>>>> Stashed changes
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -294,7 +318,11 @@ ScriptedImporter:
       y: 431
       width: 480
       height: 415
+<<<<<<< Updated upstream
     spriteID: c871c9574ead397438cdc224e5c088d4
+=======
+    spriteID: 8d3db6bfeaac6614f9b703a7e0469b29
+>>>>>>> Stashed changes
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -319,6 +347,7 @@ ScriptedImporter:
     characterGroups: []
     pivot: {x: 0, y: 0}
     boneReadOnly: 0
+<<<<<<< Updated upstream
   platformSettings:
   - name: DefaultTexturePlatform
     overridden: 0
@@ -358,6 +387,11 @@ ScriptedImporter:
     androidETC2FallbackOverride: 0
   mosaicLayers: 1
   characterMode: 0
+=======
+  platformSettings: []
+  mosaicLayers: 1
+  characterMode: 1
+>>>>>>> Stashed changes
   documentPivot: {x: 0, y: 0}
   documentAlignment: 7
   importHiddenLayers: 0
@@ -372,6 +406,7 @@ ScriptedImporter:
     categories: []
   spritePackingTag: 
   resliceFromLayer: 0
+<<<<<<< Updated upstream
   mosaicPSDLayers:
   - name: frente
     spriteName: frente
@@ -423,12 +458,19 @@ ScriptedImporter:
     flatten: 0
     isImported: 1
     isVisible: 1
+=======
+  mosaicPSDLayers: []
+>>>>>>> Stashed changes
   rigPSDLayers:
   - name: frente
     spriteName: frente
     isGroup: 0
     parentIndex: -1
+<<<<<<< Updated upstream
     spriteID: 235a36c1eb3a86f41a60b5cbea092916
+=======
+    spriteID: 7f1dca81e0eee8d4b91d741f68172797
+>>>>>>> Stashed changes
     layerID: 5
     mosaicPosition: {x: 4, y: 4}
     flatten: 0
@@ -438,7 +480,11 @@ ScriptedImporter:
     spriteName: rodaback
     isGroup: 0
     parentIndex: -1
+<<<<<<< Updated upstream
     spriteID: 42937de515575ea41b4ffeb5a2207305
+=======
+    spriteID: b604ab1503d716e48bab5f2c161791dd
+>>>>>>> Stashed changes
     layerID: 7
     mosaicPosition: {x: 502, y: 537}
     flatten: 0
@@ -448,7 +494,11 @@ ScriptedImporter:
     spriteName: rodafront
     isGroup: 0
     parentIndex: -1
+<<<<<<< Updated upstream
     spriteID: b1fb6071dce8e06468439461ef67d0c6
+=======
+    spriteID: f6dbff9ea67852949b0c1a46b8858f21
+>>>>>>> Stashed changes
     layerID: 6
     mosaicPosition: {x: 502, y: 346}
     flatten: 0
@@ -458,7 +508,11 @@ ScriptedImporter:
     spriteName: lado
     isGroup: 0
     parentIndex: -1
+<<<<<<< Updated upstream
     spriteID: 43b45be97c562e54abd7905301edac85
+=======
+    spriteID: 638001ba826b3454b9aa8cc30913f7ed
+>>>>>>> Stashed changes
     layerID: 3
     mosaicPosition: {x: 502, y: 4}
     flatten: 0
@@ -468,7 +522,11 @@ ScriptedImporter:
     spriteName: back
     isGroup: 0
     parentIndex: -1
+<<<<<<< Updated upstream
     spriteID: c871c9574ead397438cdc224e5c088d4
+=======
+    spriteID: 8d3db6bfeaac6614f9b703a7e0469b29
+>>>>>>> Stashed changes
     layerID: 2
     mosaicPosition: {x: 4, y: 431}
     flatten: 0
