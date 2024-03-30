@@ -56,7 +56,7 @@ public class PlayerMovement : MonoBehaviour
         //moveVector = Vector3.ClampMagnitude(moveVector, 1f); //Clamp so diagonal speed is not faster
 
         controller.Move(speed * Time.deltaTime * moveVector);
-        
+
         IsMoving = moveVector != Vector3.zero;
     }
 

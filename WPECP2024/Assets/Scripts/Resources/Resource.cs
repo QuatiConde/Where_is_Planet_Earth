@@ -67,6 +67,12 @@ public class Resource : MonoBehaviour, IFeedback
             return;
         }
 
+        if(type == ResourceType.Water)
+        {
+            //Check if player have bucket
+
+        }
+
         ResourceManager.Instance.AddToStack(type, 1);
         currAmount--;
         UpdateUI();
