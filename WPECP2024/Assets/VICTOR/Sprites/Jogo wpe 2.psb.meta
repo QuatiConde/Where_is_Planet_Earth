@@ -101,9 +101,9 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 4
-      width: 1711
-      height: 887
+      y: 516
+      width: 722
+      height: 375
     spriteID: 439bcc0acfe220844bda3c802896239f
     spriteBone: []
     spriteOutline: []
@@ -121,9 +121,9 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
+      x: 818
       y: 899
-      width: 1718
+      width: 904
       height: 852
     spriteID: 3191eb0c9f45a8f4f8d767cf7895e414
     spriteBone: []
@@ -135,6 +135,132 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 4, y: 899}
     spritePosition: {x: 165, y: 223}
+  - name: Jogo wpe 2_0
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 918
+      y: 494
+      width: 434
+      height: 311
+    spriteID: 457ed29fbc155ac4fa6ccbbd3554b434
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 918, y: 494}
+    spritePosition: {x: 0, y: 0}
+  - name: Jogo wpe 2_1
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 1403
+      y: 503
+      width: 327
+      height: 396
+    spriteID: 6fcca2d9511b94c4f999cb85796c9c3b
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 1403, y: 503}
+    spritePosition: {x: 0, y: 0}
+  - name: Jogo wpe 2_2
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 946
+      y: 44
+      width: 776
+      height: 446
+    spriteID: 5301574cea4452441b182a21e67117f3
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 946, y: 44}
+    spritePosition: {x: 0, y: 0}
+  - name: Jogo wpe 2_3
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 600
+      y: 0
+      width: 349
+      height: 232
+    spriteID: ae200e7bc1648bd40ae88c51f57eb9a4
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 600, y: 0}
+    spritePosition: {x: 0, y: 0}
+  - name: Jogo wpe 2_4
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 406
+      y: 282
+      width: 413
+      height: 233
+    spriteID: c779379a869d4334e8e340101ac3e62f
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 406, y: 282}
+    spritePosition: {x: 0, y: 0}
+  - name: Jogo wpe 2_5
+    originalName: 
+    pivot: {x: 0.5, y: 0.5}
+    alignment: 0
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 24
+      y: 93
+      width: 399
+      height: 402
+    spriteID: 21d8f4ca9d094584eb9de6df9ae5273a
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 24, y: 93}
+    spritePosition: {x: 0, y: 0}
   rigSpriteImportData:
   - name: Base
     originalName: 
